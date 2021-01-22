@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+nav .albumPreview {
+    height: 100px;
+}
+
+nav .albumPreview:hover {
+    border: 1px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+main .albumCard {
+    padding: 1rem;
+    border: 1px solid black;
+    width: 300px;
+}
+
+main .albumCardButtons {
+    display: flex;
+    justify-content: space-between;
+}
